@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>It's Quiztime</title>
+  <link rel="stylesheet" href="css/simplelightbox.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./css/nav-style.css" rel="stylesheet">
+  <link href="./css/gallery.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <nav>
+    <div class="nav-row">
+      <a href="./index.html" class="logo">Alex Sof</a>
+      <span id="toggle" >
+        <img src="./images/bars-solid.svg" alt="mail-icon">
+      </span>
+    </div>	
+    <ul id="menu" >
+      <li><a href="./index.html#home" class="menu-link">Home</a></li>
+      <li><a href="./index.html#about" class="menu-link">About</a></li>
+      <li><a href="./index.html#skills" class="menu-link">Skills</a></li>
+      <li><a href="./index.html#projects" class="menu-link">Projects</a></li>
+      <li><a href="./index.html#contact" class="menu-link">Contact</a></li>
+    </ul>
+  </nav>
+
+    
+  <section class="section-project">
+    <div class="container">
+      <img src="./images/its-quiz-time-imgs/quiz.png" alt="" />
+      <div>
+        <h1>Project 2 : It's Quiztime</h1> 
+        <p>Online demo game with various questions about
+          History, Geography and Sports</p>
+        <h2>Use:</h2>
+        <p>PHP - MySQL - HTML - CSS - Javascript - Bootstrap</p>
+        <a href="#gallery" class="btn">See gallery</a>
+        <a href="https://quiztime2.000webhostapp.com" class="btn">Visit now</a>
+        <a href="#" class="btn">See Code</a>
+      </div>
+      
+    </div>
+  </section>
+      
+  <!-- Large Text -->
+  <section id="about" class="section-b-2">
+    <div class="overlay">
+      <div class="section-b-inner py-5">
+        <h3 class="text-2">Loud & Clear</h3>
+        <h2 class="text-5 mt-1">People want funny question game</h2>
+        <p class="mt-1">
+            Online demo game with varius questions from 
+            History, Geography and Sports
+        </p>
+      </div>
+    </div>
+  </section>
+      
+  <section id="gallery" class="section-img-gallery">
+    <h1>Screenshots Gallery</h1>
+  
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('desktop')"> Desktop</button>
+      <button class="btn" onclick="filterSelection('laptop')"> Laptop</button>
+      <button class="btn" onclick="filterSelection('tablet')"> Tablet</button>
+      <button class="btn" onclick="filterSelection('mobile')"> Mobile</button>
+    </div>
+  
+    <div class="g-row">
+      <!-- <div class="column desktop">
+        <div class="content">
+          <a href="./images/album-shop-imgs/album-shop-img-1.png" class=""
+          ><img src="./images/album-shop-imgs/album-shop-img-1.png" alt=""></a>
+          <h4>Title</h4>
+        </div>
+      </div>
+      <div class="column desktop">
+        <div class="content">
+          <a href="./images/album-shop-imgs/album-shop-img-2.png" class=""
+          ><img src="./images/album-shop-imgs/album-shop-img-2.png" alt=""></a>
+          <h4>Title</h4>
+        </div>
+      </div>
+      <div class="column desktop">
+        <div class="content">
+            <a href="./images/album-shop-imgs/album-shop-img-1.png" class=""
+            ><img src="./images/album-shop-imgs/album-shop-img-1.png" alt=""></a>
+          <h4>Title</h4>
+        </div>
+      </div>
+      <div class="column desktop">
+        <div class="content">
+          <a href="./images/album-shop-imgs/album-shop-img-2.png" class=""
+          ><img src="./images/album-shop-imgs/album-shop-img-2.png" alt=""></a>
+          <h4>Title</h4>
+        </div>
+      </div>
+      <div class="column desktop">
+        <div class="content">
+            <a href="./images/album-shop-imgs/album-shop-img-1.png" class=""
+            ><img src="./images/album-shop-imgs/album-shop-img-1.png" alt=""></a>
+          <h4>Title</h4>
+        </div>
+      </div>
+      <div class="column desktop">
+        <div class="content">
+          <a href="./images/album-shop-imgs/album-shop-img-2.png" class=""
+          ><img src="./images/album-shop-imgs/album-shop-img-2.png" alt=""></a>
+          <h4>Title</h4>
+        </div>
+      </div> -->
+
+
+      <div class="column laptop">
+        <div class="content">
+          <a href="./images/its-quiz-time-imgs/its-quiz-time-img-1-home-page.png" class=""
+          ><img src="./images/its-quiz-time-imgs/its-quiz-time-img-1-home-page.png" alt=""></a>
+          <h4>Title: Home page</h4>
+        </div>
+      </div>
+      <div class="column laptop">
+        <div class="content">
+          <a href="./images/its-quiz-time-imgs/its-quiz-time-img-2-welcome-page.png" class=""
+          ><img src="./images/its-quiz-time-imgs/its-quiz-time-img-2-welcome-page.png" alt=""></a>
+          <h4>Title: Welcome page</h4>
+        </div>
+      </div>
+      <div class="column laptop">
+        <div class="content">
+          <a href="./images/its-quiz-time-imgs/its-quiz-time-img-3-categories.png" class=""
+          ><img src="./images/its-quiz-time-imgs/its-quiz-time-img-3-categories.png" alt=""></a>
+          <h4>Title: Categories</h4>
+        </div>
+      </div>
+      <div class="column laptop">
+        <div class="content">
+          <a href="./images/its-quiz-time-imgs/its-quiz-time-img-4-questions.png" class=""
+          ><img src="./images/its-quiz-time-imgs/its-quiz-time-img-4-questions.png" alt=""></a>
+          <h4>Title: Game questions</h4>
+        </div>
+      </div>
+      <div class="column laptop">
+        <div class="content">
+          <a href="./images/its-quiz-time-imgs/its-quiz-time-img-5-success.png" class=""
+          ><img src="./images/its-quiz-time-imgs/its-quiz-time-img-5-success.png" alt=""></a>
+          <h4>Title: Success answer</h4>
+        </div>
+      </div>
+      <div class="column laptop">
+        <div class="content">
+          <a href="./images/its-quiz-time-imgs/its-quiz-time-img-6-final-score.png" class=""
+          ><img src="./images/its-quiz-time-imgs/its-quiz-time-img-6-final-score.png" alt=""></a>
+          <h4>Title: Final score</h4>
+        </div>
+      </div>
+      <div class="column laptop">
+        <div class="content">
+          <a href="./images/its-quiz-time-imgs/its-quiz-time-img-7-ranked-players.png" class=""
+          ><img src="./images/its-quiz-time-imgs/its-quiz-time-img-7-ranked-players.png" alt=""></a>
+          <h4>Title: Ranked players to chalenge</h4>
+        </div>
+      </div>
+      <div class="column laptop">
+        <div class="content">
+          <a href="./images/its-quiz-time-imgs/its-quiz-time-img-8-notifications.png" class=""
+          ><img src="./images/its-quiz-time-imgs/its-quiz-time-img-8-notifications.png" alt=""></a>
+          <h4>Title: Notifications</h4>
+        </div>
+      </div>
+
+      <!-- <div class="column tablet">
+        <div class="content">
+          <a href="./images/album-shop-imgs/img1.jpg" class=""
+          ><img src="./images/album-shop-imgs/img1.jpg" alt=""></a>
+          <h4>Title</h4>
+        </div>
+      </div>
+      <div class="column tablet">
+        <div class="content">
+          <a href="./images/album-shop-imgs/img2.jpg" class=""
+          ><img src="./images/album-shop-imgs/img2.jpg" alt=""></a>
+          <h4>Title</h4>
+        </div>
+      </div>
+      <div class="column tablet">
+        <div class="content">
+          <a href="./images/album-shop-imgs/img3.jpg" class=""
+          ><img src="./images/album-shop-imgs/img3.jpg" alt=""></a>
+          <h4>Title</h4>
+        </div>
+      </div>
+  
+      <div class="column mobile">
+        <div class="content">
+          <a href="./images/album-shop-imgs/img4.jpg" class=""
+          ><img src="./images/album-shop-imgs/img4.jpg" alt=""></a>
+          <h4>Title</h4>
+        </div>
+      </div>
+      <div class="column mobile">
+        <div class="content">
+          <a href="./images/album-shop-imgs/img5.jpg" class=""
+          ><img src="./images/album-shop-imgs/img5.jpg" alt=""></a>
+          <h4>Title</h4>
+        </div>
+      </div>
+      <div class="column mobile">
+        <div class="content">
+          <a href="./images/album-shop-imgs/img6.jpg" class=""
+          ><img src="./images/album-shop-imgs/img6.jpg" alt=""></a>
+          <h4>Title</h4>
+        </div>
+      </div>
+    </div> -->
+  
+  
+  </section>
+
+  <footer id="contact">
+    <small>CONTACT ME</small>
+    <h2>metaxata07@gmail.com</h2>
+    <a class="hire-me" href="#">HIRE ME</a>
+    <ul class="social-media">
+      <li><a href="https://linkedin.com/in/alexandros-sofianos"><img src="./images/linkedin-brands.svg" alt="linkedin-icon"></a></li>
+      <li><a href="https://www.facebook.com/alexandros.sofianos.1"><img src="./images/facebook-square-brands.svg" alt="facebook-icon"></a></li>
+      <li><a href="https://github.com/asofianos"><img src="./images/github-square-brands.svg" alt="github-icon"></a></li>
+      <li><a href="mailto:metaxata07@gmail.com"><img src="./images/envelope-square-solid.svg" alt="mail-icon"></a></li>
+    </ul>
+    <small class="copyrights">Copyrights @ Alexandros Sofianos 2019. All Rights Reserved</small>
+  </footer>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/simple-lightbox.js"></script>
+  <script>
+
+    var gallery = $('.g-row  a').simpleLightbox();
+
+    gallery.next(); // Next Image
+
+    document.addEventListener("DOMContentLoaded", () => {
+      let navbar_list = document.getElementById('menu');
+      let navbar_toggle = document.getElementById('toggle');
+      navbar_toggle.addEventListener('click', function () {
+        if (this.classList.contains('active')) {
+          navbar_list.style.display = "none";
+          this.classList.remove('active');
+        } else {
+          navbar_list.style.display = "flex";
+          this.classList.add('active');
+        }
+      })
+    })
+
+
+    filterSelection("all")
+      function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("column");
+        if (c == "all") c = "";
+        for (i = 0; i < x.length; i++) {
+          w3RemoveClass(x[i], "show");
+          if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+      }
+
+      function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+        }
+      }
+
+      function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);     
+          }
+        }
+        element.className = arr1.join(" ");
+      }
+
+
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+
+
+
+
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+</body>
+</html>
