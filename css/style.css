@@ -94,16 +94,7 @@ img {
   background: url("../images/album-shop-fullscreen.png") no-repeat bottom center/cover;
   height: 550px;
 }
-.section-b-1 a {
-  width: 110px;
-  padding: 8px 12px;
-  border: 1px solid #fff;
-  border-radius: 3px;
-  text-decoration: none;
-  text-align: center;
-  font-weight: bold;
-  color: #fff;
-}
+
 .section-b-2 {
   position: relative;
   background: url("../images/its-quiz-time-fullscreen.png") no-repeat bottom center/cover;
@@ -347,7 +338,8 @@ img {
   text-align: center;
   color: #fff;
   padding: 0.8rem 1.2rem;
-  border: none;
+  /* border: none; */
+  border: 1px solid #fff;
   cursor: pointer;
   font-size: 1.1rem;
   border-radius: 30px;
@@ -409,23 +401,37 @@ footer .hire-me {
   color: #333333;
 }
 .project-btns {
+  display: inline-block;
+  
   margin: 1.5rem 0;
   list-style-type: none;
   line-height: 28px;
   display: flex;
   padding: 0;
 }
-.project-btns li {
-  display: inline-block;
-  margin: 0 20px;
-  
-}
-.project-btns li a {
-  padding: 0.8rem 1.5rem;
+
+.project-btns a {
+  background: #333;
+  width: 130px;
+  padding: 0.8rem 1.2rem;
+  border: 1px solid #fff;
+  border-radius: 30px;
   text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
   /* color: #b1b1b1; */
   font-size: 1.1rem;
   margin: 0 5px;
+}
+
+/* .section-b-1 a {
+  width: 130px; 
+   padding: 8px 12px;
+  
+} */
+.project-btns a:hover{
+  background: #555;
 }
 
 .overlay {
