@@ -218,7 +218,6 @@ img {
 
 .section-edu {
   position: relative;
-  /* background: url('https://i.ibb.co/1RS1dqC/section-b.jpg') no-repeat bottom center/cover; */
   background: url('../images/education.jpg') no-repeat bottom center/cover;
   height: 500px;
 }
@@ -402,7 +401,6 @@ footer .hire-me {
 }
 .project-btns {
   display: inline-block;
-  
   margin: 1.5rem 0;
   list-style-type: none;
   line-height: 28px;
@@ -411,27 +409,21 @@ footer .hire-me {
 }
 
 .project-btns a {
-  background: #333;
+  background: #fff;
   width: 130px;
   padding: 0.8rem 1.2rem;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   border-radius: 30px;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
-  color: #fff;
-  /* color: #b1b1b1; */
+  color: #000000;
   font-size: 1.1rem;
   margin: 0 5px;
 }
 
-/* .section-b-1 a {
-  width: 130px; 
-   padding: 8px 12px;
-  
-} */
 .project-btns a:hover{
-  background: #555;
+  background: silver;
 }
 
 .overlay {
